@@ -279,7 +279,8 @@ video {
     background-position: left center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: inherit
+    padding: inherit;
+    margin: auto;
 }
 
 #backg_grass input{
