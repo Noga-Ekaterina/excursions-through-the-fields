@@ -1,0 +1,136 @@
+@media screen and (min-width:768px) and (max-width:1919px) {
+    header,
+    main> div,
+    footer {
+        padding: 5vw
+    }
+    .width, #backg_grass{
+      max-width: 850px;
+    }
+    h1 {
+        font-size: 60px
+    }
+    h2 {
+        font-size: 35px;
+    }
+    h3, .small, .coment .block_text> p, footer *{
+        font-size: 17px
+    }
+    .logo {
+        margin-bottom: 90px
+    }
+    h1 {
+        margin-bottom: 40px
+    }
+    header button {
+        width: 50%;
+    }
+    #services {
+        margin-top: 180px
+    }
+    #services .icon {
+        position: absolute
+    }
+    #nav {
+        width: 40%;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        margin: 0;
+        right: -40%;
+        /* плавный переход смещения панели */
+        -webkit-transition: right 0.5s;
+        -moz-transition: right 0.5s;
+        transition: right 0.5s;
+        color: #3E2D15;
+        /* поверх других элементов */
+        z-index: 6;
+        background: #FDFFF8;
+        padding: 5vw;
+        box-sizing: border-box
+    }
+    #nav a {
+        color: #3E2D15;
+    }
+    #nav-toggle:checked ~ #nav {
+        right: 0;
+        padding: 4vw;
+        box-shadow: -4px 0px 20px 0px rgba(0, 0, 0, 0.5);
+        -moz-box-shadow: -4px 0px 20px 0px rgba(0, 0, 0, 0.5);
+        -webkit-box-shadow: -4px 0px 20px 0px rgba(0, 0, 0, 0.5);
+        overflow-y: auto;
+        position: absolute
+    }
+    #nav-toggle:checked ~ #mob_menu {
+        display: none
+    }
+    #nav .logo {
+        margin-bottom: 45px
+    }
+    #nav li {
+        margin-bottom: 25px
+    }
+    #description h2{
+        max-width: max(27ch, 80%)
+    }
+    
+    #mountains {
+        width: 48%;
+        aspect-ratio: 330/393;
+        float: right
+    }
+    #steps {
+        width: 48%;
+        aspect-ratio: 330/393
+    }
+    .plus {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 40px
+    }
+    .plus>* {
+        width: 48%
+    }
+    .plus .block_text {
+        align-self: center
+    }
+    .plus .small{
+        max-width: 27ch
+    }
+    #backg_grass .block_form{
+        width: 70%
+    }
+    #backg_grass p{
+        width: 75%
+    }
+    #buttons{
+      margin: 0;
+    }
+    .coment.active {
+        left: 0;
+        right: 0
+    }
+    .coment.prev {
+        z-index: 2;
+        opacity: 1;
+        transform: translate(-100%, 0);
+    }
+
+    .coment.next {
+        z-index: 2;
+        opacity: 1;
+        transform: translate(100%, 0);
+    }
+   .coment >*{
+        width: 48%;
+    }
+    #grid{
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(4, 1em);
+        grid-template: "b1 b2 NA"
+                        "b1 b2 b"
+                        "b1 b2  b"
+                        "b1 . . "
+    }
+    
+}

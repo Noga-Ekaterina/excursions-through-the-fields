@@ -1,0 +1,145 @@
+@media screen and (max-width:767px){
+    *{
+        font-size: 20px
+    }
+    header, main> div, footer{
+        padding: 5vw
+    }
+    .width, #backg_grass{
+      max-width: 600px;
+    }
+    h1 {
+        font-size: 40px
+    }
+    
+    h2{
+        font-size: 27px;
+        width: 100%
+    }
+    h3, .small, .coment .block_text> p, footer *{
+        font-size: 16px
+    }
+    header{
+         background-image: url(../img/rice_field_mob.png);
+    }
+    .logo{
+        margin-bottom: 60px
+    }
+    h1{
+        margin-bottom: 25px
+    }
+    #services{
+        width: 80%;
+        margin-top: 80px
+    }
+    #services .icon{
+        position: absolute
+    }
+    #nav{
+        width: 100%;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        height: 100%;
+        margin: 0;
+        right: -100%;
+        /* плавный переход смещения панели */
+        -webkit-transition: right 0.5s;
+        -moz-transition: right 0.5s;
+        transition: right 0.5s;
+        color: #3E2D15;
+        /* поверх других элементов */
+        z-index: 6;
+        background: #FDFFF8;
+        padding: 5vw;
+        box-sizing: border-box
+    }
+    #nav a{
+        color: #3E2D15;
+    }
+    #nav-toggle:checked ~ #nav {
+        right: 0;
+        padding: 4vw;
+        box-shadow:-4px 0px 20px 0px rgba(0,0,0, 0.5);
+        -moz-box-shadow:-4px 0px 20px 0px rgba(0,0,0, 0.5);
+        -webkit-box-shadow:-4px 0px 20px 0px rgba(0,0,0, 0.5);
+        overflow-y: auto;
+        position: absolute
+    }
+    #nav-toggle:checked ~ #mob_menu{
+        display: none
+    }
+    #nav .logo{
+        margin-bottom: 45px
+    }
+    #nav li{
+        margin-bottom: 25px
+    }
+    #mountains{
+        width: 100%;
+        aspect-ratio:328/212;
+        margin-bottom: 15px
+    }
+    #steps{
+        width: 100%;
+        aspect-ratio:328/219
+    }
+    .plus{
+        margin-bottom: 35px
+    }
+    .plus .small{
+        max-width: 27ch
+    }
+    #backg_grass .block_form{
+        width: 90%
+    }
+    #coments{
+      margin-bottom: 0;
+    }
+    .coment.active {
+        left: 0;
+        right: 0
+    }
+    .coment.prev {
+        z-index: 2;
+        opacity: 1;
+        transform: translate(-100%, 0);
+    }
+
+    .coment.next {
+        z-index: 2;
+        opacity: 1;
+        transform: translate(100%, 0);
+    }
+    .coment .img{
+        display: none
+    }
+    .coment .block_text> p{
+        margin-left: 90px
+    }
+    #buttons{
+        position: static;
+        padding: 0;
+        float: right;
+        margin: 0;
+    }
+    #grid{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(6, 1em);
+        grid-template: "b1 b2"
+                        "b1 b2"
+                        "b1 b2"
+                        "b1 NA"
+                        "b ."
+                        "b ."
+    }
+    #NA{
+        margin-top: -25px
+    }
+    #leftF, #rightF{
+        width: 100%;
+        float: none;
+        text-align: left;
+        margin: 10px 0
+    }
+}

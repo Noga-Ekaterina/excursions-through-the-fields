@@ -1,0 +1,221 @@
+@media screen and (min-width:1920px) {
+
+    header,
+    main > div,
+    footer {
+        padding: 85px 7.3%
+    }
+    .width, #backg_grass{
+      max-width: 1800px
+    }
+    h1 {
+        font-size: 80px;
+        font-weight: 600;
+    }
+
+    h2 {
+        font-size: 45px;
+        margin-bottom: 30px
+    }
+
+    h3 {
+        font-size: 18px
+    }
+
+    .logo {
+        float: left;
+        margin-top: -20px;
+        margin-bottom: 20px;
+        margin-right: 40px
+    }
+    h1+p{
+        width: 65%
+    }
+
+    #mob_menu,
+    #close_menu {
+        display: none
+    }
+
+    #nav {
+        width: 34%;
+        display: flex;
+        justify-content: space-between;
+        margin: auto
+    }
+
+    .menu .logo,
+    #nav .li_num {
+        display: none
+    }
+
+    .nam {
+        display: block;
+        float: right
+    }
+
+    header .block_text {
+        width: 55%;
+        margin-top: 100px
+    }
+
+    h1 {
+        margin-bottom: 50px
+    }
+
+    header button {
+        display: inline;
+        margin-right: 40px;
+        margin-top: 65px;
+        width: auto;
+        box-sizing: padding-box
+    }
+
+    #services {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 145px
+    }
+
+    #services > div {
+        width: 32%
+    }
+
+    #services div > * {
+        position: static;
+        margin-left: 0
+    }
+
+    .shadow_form > * {
+        padding: 120px 100px;
+    }
+
+    .block_form .close {
+        position: absolute;
+        top: 30px;
+        right: 100px
+    }
+
+    #description,
+    #video {
+        position: relative
+    }
+
+    #description .block_text {
+        width: 58%;
+        display: inline-block
+    }
+    .big_none{
+        display: none
+    }
+
+    #mountains {
+        width: 36%;
+        height: 100%;
+        position: absolute;
+        right: 0;
+        top: 0
+    }
+
+    #steps {
+        width: 58%;
+        aspect-ratio: 940/504
+    }
+
+    main .a {
+        position: absolute;
+        right: 0;
+        top: 10px
+    }
+
+    #video h2 {
+        width: 60%
+    }
+
+    #fram_video {
+        margin-top: 50px
+    }
+
+    #pluss,
+    #backg_grass {
+        display: flex;
+        justify-content: space-between
+    }
+
+    .plus {
+        width: 23%
+    }
+    .plus .block_text{
+        margin-top: 30px
+    }
+
+    #backg_grass .block_text {
+        width: 50%
+    }
+
+    #backg_grass .block_form {
+        width: 30%
+    }
+
+    #gallery {
+        position: relative
+    }
+
+    #grid_imgs {
+        margin-top: 70px;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template: "i1 i2 i4"
+            "i1 i3 i4"
+    }
+
+    #gallery .a {
+        top: -5px
+    }
+    #buttons{
+      margin: 0;
+    }
+    #coments{
+        width: 100vw;
+        height: 350px;
+        overflow: visible
+    }
+    .coment{
+        top: 0;
+        left: 50%;
+        transform: translate(-50%, 0);
+        height: 100%;
+        max-width: 45%;
+    }
+
+    .coment.prev {
+        z-index: 2;
+        opacity: 1;
+        transform: translate(-154%, 0);
+    }
+
+    .coment.next {
+        z-index: 2;
+        opacity: 1;
+        transform: translate(54%, 0);
+    }
+    .coment .img, .coment .img img{
+        width: auto;
+        height: 100%;
+    }
+    #buttons {
+        top: -35px;
+    }
+    #grid{
+        width: 70%;
+        float: right;
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: repeat(4, 1em);
+        grid-template: "b1 b2 . . b"
+                        "b1 b2 . . b"
+                        "b1 b2 . . NA"
+                        "b1 . . . . "
+    }
+    footer *{
+        font-size: 18px
+    }
+}

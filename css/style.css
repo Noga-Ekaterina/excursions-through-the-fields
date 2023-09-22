@@ -1,0 +1,429 @@
+* {
+    font-family: Montserrat;
+    font-size: 25px;
+    font-weight: 400;
+    margin: 0;
+    padding: 0
+}
+.width{
+   position: relative;
+   margin: auto;
+}
+
+h1 {
+    font-weight: 600
+}
+
+h2 {
+    font-weight: 500;
+    margin-bottom: 20px
+}
+
+h3, small{
+    font-size: 18px
+}
+
+p {
+    line-height: 140%;
+    margin-bottom: 35px
+}
+
+header,
+main > div,
+footer {
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden
+}
+
+header {
+    min-height: 1100px;
+    background-image: url(../img/rice_field.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff
+}
+
+.logo {
+    font-size: 15px
+}
+
+.logo strong {
+    font-size: 35px;
+}
+
+.menu {
+    list-style: none
+}
+
+header a {
+    color: #fff;
+    text-decoration: none
+}
+
+button, .a{
+    padding: 20px 50px;
+    border-radius: 10px;
+    margin-top: 20px;
+    text-align: center
+}
+
+header button {
+    display: block;
+    box-sizing: border-box;
+}
+
+.btn_backg_w {
+    background: #fff;
+    color: #000;
+    border: 0;
+    border-radius: 10px;
+}
+
+.btn_backg_n {
+    background: none;
+    color: #fff;
+    border: 2px solid #fff
+}
+
+.img img {
+    width: 100%
+}
+
+.icon {
+    width: auto;
+    margin-bottom: 20px
+}
+
+#services div {
+    margin-bottom: 20px
+}
+
+#services p {
+    margin-left: 60px
+}
+
+#mob_menu,
+#close_menu {
+    position: absolute;
+    right: 5vw;
+    top: 2vw;
+    font-size: 70px;
+    z-index: 8
+}
+
+#close_menu {
+    right: 2vw
+}
+
+.close {
+    font-weight: 100;
+    font-size: 70px
+}
+
+#nav-toggle,
+.nam {
+    display: none
+}
+
+[class^="shadow"] {
+    display: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.4);
+    justify-content: center;
+    align-items: center;
+    z-index: 4
+}
+
+#nav-toggle:checked ~ .shadow {
+    display: block
+}
+
+#nav .li_num {
+    position: absolute;
+    bottom: 4vw
+}
+
+.shadow_form > * {
+    position: relative;
+    color: #3E2D15;
+    background: #FDFFF8;
+    padding: 60px 30px;
+    box-sizing: border-box;
+    width: 630px;
+    max-width: 96vw;
+    max-height: 96vh;
+    overflow-y: auto;
+    overflow-x: hidden
+}
+
+.big {
+    font-size: 35px;
+    text-align: center
+}
+
+input {
+    width: 100%;
+    border-radius: 10px;
+    background: none;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-top: 25px
+}
+.shadow_form input{
+    border: 1px solid #3E2D15;
+}
+[type="checkbox"] {
+    width: auto;
+    margin-left: 15px
+}
+label{
+    font-size: 15px
+}
+
+.shadow_form [type="submit"],
+.close_butt {
+    background: #3E2D15;
+    color: #fff;
+    width: 100%
+}
+
+.shadow_form [disabled] {
+    background: rgba(62, 45, 21, 0.50);
+}
+
+.overf_h {
+    overflow: hidden
+}
+
+.block_form .close {
+    position: absolute;
+    top: 10px;
+    right: 30px
+}
+
+#post_form {
+    display: none
+}
+
+footer, .backg_y {
+    background: #FDFFF8;
+    color: #3E2D15
+}
+.backg_y a{
+    color: #3E2D15;
+    text-decoration: none
+}
+.width > div {
+    margin: 90px 0
+}
+
+.backg_g {
+    background: #F0F0E8;
+    color: #3E2D15
+}
+
+#description > * {
+    background-position: center;
+    background-size: cover
+}
+#description p{
+    max-width: 50ch
+}
+
+#mountains {
+    background-image: url(../img/mountains.png)
+}
+
+#steps {
+    background-image: url(../img/steps.png);
+    background-position: left center
+}
+
+video {
+    width: 100%;
+    max-width: 100%
+}
+#video h2{
+    max-width: 21ch
+}
+.a{
+    width: auto;
+    display: inline-block
+}
+.a {
+    border-radius: 10px;
+    border: 1.5px solid #3E2D15;
+}
+.img img{
+    width: 100%
+}
+.plus p{
+    margin-bottom: 18px;
+    font-weight: 500
+}
+.plus .img{
+    max-width: 600px
+}
+.plus .small{
+    font-weight: 400
+}
+#backg_grass{
+    color: #fff;
+    background-image: url(../img/grass.png);
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: inherit
+}
+
+#backg_grass input{
+    border: 1px solid #FFF;
+    color: #fff
+}
+#backg_grass input::placeholder{
+    font-weight: 300;
+    color: #fff}
+
+form button{
+    width: 100%;
+    box-sizing: border-box
+}
+#grid_imgs{
+    display: grid;
+    gap:2vw;
+    grid-template: "i1 i3"
+                   "i1 i4"
+                   "i2 i4"
+}
+#grid_imgs>*{
+    max-width: 800px
+}
+#i1{
+     grid-area:i1
+}
+#i2{
+     grid-area:i2
+}
+#i3{
+     grid-area:i3
+}
+#i4{
+    grid-area:i4
+}
+#block_coments h2{
+    width: 70%
+}
+#coments{
+    overflow: hidden;
+    position: relative;
+    margin-top:70px
+}
+.coment .img{
+    max-width: 520px;
+    max-height: 460px
+}
+.coment .block_text{ 
+    height: 100%;
+    font-size: 18px
+}
+.coment .block_text>p{
+    max-width: 25ch
+}
+.coment{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 2vw;
+    position: absolute;
+    top: 0;
+    overflow: hidden;
+    background: #fff;
+    transition: all 700ms ease-in-out;
+    z-index: -1;
+    opacity: 0;
+    display: flex;
+    justify-content: space-between
+}
+.coment.active {
+    position: relative;
+    opacity: 1;
+    z-index: 99;
+}
+.coment .img{
+    margin-right: 2vw
+}
+
+.avtor p{
+    margin-bottom: 5px
+}
+.avtor{
+    margin-bottom: 35px
+}
+.avatar{
+    float: left;
+    margin-right: 10px
+}
+#buttons {
+    position: absolute;
+    right: 0;
+    top: -15px;
+    padding: inherit
+}
+#buttons button {
+    background: none;
+    border: 0;
+    font-size: 45px;
+    color: #3E2D15;
+    padding: 0
+}
+#grid{
+    display: grid;
+    row-gap:15px;
+}
+#grid li{
+    margin-bottom: 15px
+}
+#b1 {
+    grid-area:b1
+}
+#b2 {
+    grid-area:b2
+}
+#grid button{
+    grid-area:b;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 20px 0;
+    background: none
+}
+#NA {
+    grid-area:NA
+}
+footer a{
+    color: #3E2D15;
+    text-decoration: none
+}
+.clear{
+    clear: both
+}
+#line{
+    background: #3E2D15;
+    height: 0.5px;
+    margin: 60px 0
+}
+#leftF {
+    width:48%;
+    float: left;
+    font-weight: 300
+}
+#rightF {
+    width: 48%;
+    float: right;
+    font-weight: 300;
+    text-align: right
+}

@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1, user-scalable=no">
+   <title>Document</title>
+   <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="css/1920px.css">
+   <link rel="stylesheet" href="css/768px.css">
+   <link rel="stylesheet" href="css/350px.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap"
+      rel="stylesheet">
+</head>
+
+<body>
+   <div class="shadow_form">
+      <div class="block_form">
+         <div class="close">&#215;</div>
+         <p class="big">Обратный звонок</p>
+         <form method="post" action="" onmousedown="buttonDeleteDi(this)" oninput="buttonDeleteDi(this)"
+            onsubmit="return submitForm()">
+            <input type="text" name="name" placeholder="Введите имя">
+            <input type="text" name="num" placeholder="+375 (29) 999-99-99">
+            <input type="submit" disabled value="Заказать звонок">
+            <input type="checkbox" id="checkData" name="checkData">
+            <label for="checkData">Я согласен на обработку персональных данных</label>
+         </form>
+      </div>
+      <div id="post_form">
+         <p class="big">Ваша заявка принята</p>
+         <button class="close_butt">Закрыть</button>
+      </div>
+   </div>
+   <header>
+      <input type="checkbox" id="nav-toggle">
+      <div class="shadow"></div>
+      <div class="logo">
+         <strong>GreenTours</strong><br>
+         Пешие экскурсии
+      </div>
+      <div class="nam"><a href="tel:+163290856824">+16 3290856824
+         </a></div>
+      <label for="nav-toggle" id="mob_menu">&#8801;</label>
+      <ul class="menu" id="nav">
+         <li id="close_menu"><label for="nav-toggle" class="close">&#215;</label></li>
+         <li class="logo">
+            <strong>GreenTours</strong><br>
+            Пешие экскурсии
+         </li>
+         <li><a href="#">Видео</a></li>
+         <li><a href="#">Скидки</a></li>
+         <li><a href="#">Галерея</a></li>
+         <li><a href="#">Отзывы</a></li>
+         <li class="li_num"><a href="tel:+163290856824">+16 3290856824
+            </a></li>
+      </ul>
+      <div class="block_text">
+         <h1>Пешие экскурсии по рисовым полям</h1>
+         <p>Организуем для вас незабываемый<br>
+            пешеходный тур по зелёным рисовым полям и террасам Японии</p>
+         <p>
+            <button class="btn_backg_w">Выбрать экскурсию</button>
+            <button class="show_form btn_backg_n">Обратный звонок </button>
+         </p>
+      </div>
+      <div class="block_text" id="services">
+         <div>
+            <div class="icon"><img src="img/autobus.png" alt=""></div>
+            <p>Трансферы из отеля или аэропорта</p>
+         </div>
+         <div>
+            <div class="icon"><img src="img/People%20.png" alt=""></div>
+            <p>Опытный, местный гид с хорошим английским</p>
+         </div>
+         <div>
+            <div class="icon"><img src="img/camera.png" alt=""></div>
+            <p>Фотосессия на всем маршруте</p>
+         </div>
+      </div>
+   </header>
+   <main>
+      <div class="backg_y">
+         <div class="width">
+            <div id="description">
+               <div class="block_text">
+                  <h2>Сироёнэ Сэммайда —
+                     живописный холм, по склону которого ярусами спускается рисовая плантация</h2>
+                  <p>Он расположен на полуострове Ното и считается одним из красивейших мест Японии.</p>
+               </div>
+               <div id="mountains"></div>
+               <div id="steps"></div>
+            </div>
+            <div id="video">
+               <h2>Посмотрите, как проходят наши экскурсии</h2>
+               <div id="fram_video">
+                  <video src="video.mp4" controls poster="img/video_fon.png"></video>
+               </div>
+               <div class="a"><a href="#">Больше видео</a></div>
+            </div>
+         </div>
+      </div>
+      <div class="backg_g">
+         <div class="width">
+            <div id="pluss">
+               <div class="plus">
+                  <div class="img"><img src="img/plus1.png" alt=""></div>
+                  <div class="block_text">
+                     <p>Не требует физ. подготовки</p>
+                     <p class="small">Во время экскурсии не будет сложных восхождений или спусков</p>
+                  </div>
+               </div>
+               <div class="plus">
+                  <div class="img"><img src="img/plus2.png" alt=""></div>
+                  <div class="block_text">
+                     <p>Все уже включено</p>
+                     <p class="small">Никаких скрытых платежей, все включено; от воды до трансфера и услуг гида</p>
+                  </div>
+               </div>
+               <div class="plus">
+                  <div class="img"><img src="img/plus3.png" alt=""></div>
+                  <div class="block_text">
+                     <p>От 4 часов до 2 часов</p>
+                     <p class="small">Выбирайте подходящую продолжительность экскурсии</p>
+                  </div>
+               </div>
+               <div class="plus">
+                  <div class="img"><img src="img/plus4.png" alt=""></div>
+                  <div class="block_text">
+                     <p>Местные гиды</p>
+                     <p class="small">Проведут в потайные места, расскажут о местных традициях и культурк</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="backg_y">
+            <div id="backg_grass">
+               <div class="block_text">
+                  <h2>Получите гарантированную скидку -20% на весь тур</h2>
+                  <p>Скидка действует для участников ранней брони до 1&nbsp;мая</p>
+               </div>
+               <div class="block_form">
+                  <form method="post" action="" onmousedown="buttonDeleteDi(this)" oninput="buttonDeleteDi(this)"
+                     onsubmit="return submitForm()">
+                     <input type="text" name="name" placeholder="Введите имя">
+                     <input type="text" name="num" placeholder="+375 (29) 999-99-99">
+                     <button type="submit" disabled>Заказать звонок</button>
+                     <input type="checkbox" id="checkData2" name="checkData" class="btn_bacg_w">
+                     <label for="checkData2">Я согласен на обработку персональных данных</label>
+                  </form>
+               </div>
+            </div>
+         <div class="width">
+            <div id="gallery">
+               <h2>Галерея экскурсий</h2>
+               <div id="grid_imgs">
+                  <div class="img" id="i1"><img src="img/gallery1.png" alt=""></div>
+                  <div class="img" id="i2"><img src="img/gallery2.png" alt=""></div>
+                  <div class="img" id="i3"><img src="img/gallery3.png" alt=""></div>
+                  <div class="img" id="i4"><img src="img/gallery4.png" alt=""></div>
+               </div>
+               <div class="a"><a href="#">Смотреть все фото</a></div>
+            </div>
+         </div>
+      </div>
+      <div class="backg_g" id="block_coments">
+         <div class="width">
+            <h2>Прочитайте отзывы наших клиентов</h2>
+            <div id="coments">
+               <div class="coment">
+                  <div class="img"><img src="img/plus4.png" alt=""></div>
+                  <div class="block_text">
+                     <div class="avtor">
+                        <div class="avatar"><img src="img/avtor1.png" alt=""></div>
+                        <p>Ольга Швайба</p>
+                        <a href=""><img src="img/instagram.png" alt=""></a>
+                     </div>
+                     <p>Я восхищена красотой этих мест! Всем обязательно советую тут побывать и насладиться этими
+                        потрясающими местами))</p>
+                  </div>
+               </div>
+               <div class="coment">
+                  <div class="img"><img src="img/coment2.png" alt=""></div>
+                  <div class="block_text">
+                     <div class="avtor">
+                        <div class="avatar"><img src="img/avtor2.png" alt=""></div>
+                        <p>Никита Нечаев</p>
+                        <a href=""><img src="img/instagram.png" alt=""></a>
+                     </div>
+                     <p>Всем привет! Если вы хотите отдохнуть душой и телом…Поверьте, это место вам однозначно подойдёт!
+                     </p>
+                  </div>
+               </div>
+               <div class="coment">
+                  <div class="img"><img src="img/coment3.png" alt=""></div>
+                  <div class="block_text">
+                     <div class="avtor">
+                        <div class="avatar"><img src="img/avtor3.png" alt=""></div>
+                        <p>Евгений Иванов</p>
+                        <a href=""><img src="img/instagram.png" alt=""></a>
+                     </div>
+                     <p>Великолепное место, всем советую тут побывать мечтаю мернуться сюда еще раз</p>
+                  </div>
+               </div>
+            </div>
+            <div id="buttons">
+               <button onclick="gotoPrev()">&#8592;</button>
+               <button onclick="gotoNext()">&#8594;</button>
+            </div>
+         </div>
+      </div>
+   </main>
+   <footer>
+      <div class="width">
+         <div class="logo">
+            <strong>GreenTours</strong><br>
+            Пешие экскурсии
+         </div>
+         <div id="grid">
+            <ul class="menu" id="b1">
+               <li><a href="#">Видео</a></li>
+               <li><a href="#">Скидки</a></li>
+               <li><a href="#">Галерея</a></li>
+               <li><a href="#">Отзывы</a></li>
+            </ul>
+            <ul id="b2" class="menu">
+               <li><a href="">Вакансия</a></li>
+               <li><a href="">Наши гиды</a></li>
+               <li style="margin-bottom: 0"><a href="">Фотосессии</a></li>
+            </ul>
+            <button class="show_form a">Обратный звонок </button>
+            <a href="tel:+163290856824" id="NA">+16 3290856824</a>
+         </div>
+         <div class="clear"></div>
+         <div id="line"></div>
+         <div id="leftF">
+            <a href="#">Политика в отношении обработки персональных данных</a>
+         </div>
+         <div id="rightF">
+            <a href="mailto:hello@greentours.io">hello@greentours.io</a>
+         </div>
+      </div>
+   </footer>
+   <script src="script.js"></script>
+</body>
+
+</html>
