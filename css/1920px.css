@@ -9,17 +9,17 @@
       max-width: 1800px
     }
     h1 {
-        font-size: 80px;
+        font-size: 8rem;
         font-weight: 600;
     }
 
     h2 {
-        font-size: 45px;
+        font-size: 4.5rem;
         margin-bottom: 30px
     }
 
     h3 {
-        font-size: 18px
+        font-size: 1.8rem
     }
 
     .logo {
@@ -216,6 +216,6 @@
                         "b1 . . . . "
     }
     footer *{
-        font-size: 18px
+        font-size: 1.8rem
     }
 }

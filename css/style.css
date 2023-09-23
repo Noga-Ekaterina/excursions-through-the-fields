@@ -1,6 +1,10 @@
+html{
+
+   font-size: 62.5%;
+}
 * {
     font-family: Montserrat;
-    font-size: 25px;
+    font-size: 2.5rem;
     font-weight: 400;
     margin: 0;
     padding: 0
@@ -20,7 +24,7 @@ h2 {
 }
 
 h3, small{
-    font-size: 18px
+    font-size: 1.8rem
 }
 
 p {
@@ -46,11 +50,11 @@ header {
 }
 
 .logo {
-    font-size: 15px
+    font-size: 1.5rem
 }
 
 .logo strong {
-    font-size: 35px;
+    font-size: 3.5rem
 }
 
 .menu {
@@ -163,7 +167,7 @@ header button {
 }
 
 .big {
-    font-size: 35px;
+    font-size: 3.5rem;
     text-align: center
 }
 
@@ -183,7 +187,7 @@ input {
     margin-left: 15px
 }
 label{
-    font-size: 15px
+    font-size: 1.5rem
 }
 
 .shadow_form [type="submit"],
@@ -331,7 +335,7 @@ form button{
 }
 .coment .block_text{ 
     height: 100%;
-    font-size: 18px
+    font-size: 1.8rem
 }
 .coment .block_text>p{
     max-width: 25ch
@@ -378,7 +382,7 @@ form button{
 #buttons button {
     background: none;
     border: 0;
-    font-size: 45px;
+    font-size: 4.5rem;
     color: #3E2D15;
     padding: 0
 }

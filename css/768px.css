@@ -8,13 +8,13 @@
       max-width: 850px;
     }
     h1 {
-        font-size: 60px
+        font-size: 6rem
     }
     h2 {
-        font-size: 35px;
+        font-size: 3.5rem;
     }
     h3, .small, .coment .block_text> p, footer *{
-        font-size: 17px
+        font-size: 1.7rem
     }
     .logo {
         margin-bottom: 90px
